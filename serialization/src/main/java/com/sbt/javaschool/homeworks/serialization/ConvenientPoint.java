@@ -8,12 +8,12 @@ public class ConvenientPoint extends CumbersomePoint implements Serializable {
         super(name, x, y);
     }
 
-    private Object writeResolve() {
+    private Object writeReplace() {
         return new SerializationProxy(this);
     }
 
     /*
-    private static class SerializationProxy {
+    private static class SerializationProxy implements Serializable{
         private static final long serialVersionUID = 1L;
 
         private String name;

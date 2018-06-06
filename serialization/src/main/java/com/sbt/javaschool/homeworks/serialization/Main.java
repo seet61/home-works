@@ -11,6 +11,7 @@ public class Main {
         try(FileOutputStream fos = new FileOutputStream(filename);
             ObjectOutputStream oos = new ObjectOutputStream(fos)) {
             oos.writeObject(convenientPoint);
+            System.out.println(convenientPoint.toString());
         } catch(FileNotFoundException e) {
             e.printStackTrace();
         } catch(IOException e) {

@@ -8,14 +8,14 @@ public class CumbersomePoint {
     private double x;
     private double y;
 
-    public CumbersomePoint() {
-
-    }
-
-    public CumbersomePoint(String name, double x, double y) {
+    CumbersomePoint(String name, double x, double y) {
         this.name = name;
         this.x = x;
         this.y = y;
+    }
+
+    CumbersomePoint() {
+        System.out.println("no-arg constructor");
     }
 
     public String getName() {
