@@ -14,13 +14,13 @@ public class Streams<T> {
     }
 
     public <T> Stream<T> filter(Predicate<T> predicate) {
-        for (Iterator it = stream.iterator(); it.hasNext(); ) {
+        /*for (Iterator it = stream.iterator(); it.hasNext(); ) {
             T t = (T) it.next();
 
             if (!predicate.test(t)) {
                 this.stream.
             }
-        }
+        }*/
         return this.stream;
     }
 
