@@ -3,10 +3,10 @@ package com.sbt.javaschool.homeworks.serialization;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import org.junit.runners.Suite;
 
 import java.io.*;
 
-@RunWith(Parameterized.class)
 public class CumbersomePointSerialize {
     @Test
     public void serialize() {

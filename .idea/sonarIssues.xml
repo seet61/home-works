@@ -38,6 +38,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/stream/src/main/java/com/sbt/javaschool/homeworks/stream/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream/src/main/java/com/sbt/javaschool/homeworks/stream/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream/src/main/java/com/sbt/javaschool/homeworks/stream/Streams.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
