@@ -2,33 +2,36 @@ package com.sbt.javaschool.homeworks.stream;
 
 import java.util.*;
 import java.util.function.Predicate;
-import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
 
 public class Streams<T> {
-    private static Stream stream;
+    private T t;
 
-    public static <T> Stream<T> of(List list) {
-        stream = Arrays.stream((T[]) list.toArray());
-        return stream;
+    private Streams(T t) {
+        this.t = t;
     }
 
-    public <T> Stream<T> filter(Predicate<T> predicate) {
-        /*for (Iterator it = stream.iterator(); it.hasNext(); ) {
-            T t = (T) it.next();
 
-            if (!predicate.test(t)) {
-                this.stream.
-            }
-        }*/
-        return this.stream;
+    public static <T> Streams<T> of(T t) {
+        return new Streams<T>(t);
     }
 
-    public Streams transform() {
-        return this;
+    public <T> Streams<T> filter(Predicate<T> predicate) {
+        if (predicate.test((T) t)) {
+            return new Streams<T>((T) t);
+        }
+
+        return null;
     }
 
-    public Map toMap() {
-        return new HashMap();
+    public <T> Streams<T> transform(T t) {
+        return new Streams<T>((T) t);
+    }
+
+    public HashMap toMap(Predicate<T> p1, Predicate<T> p2) {
+        if (p1.test(t)) {
+            return new HashMap(t,t.toString());
+        }
+
+        return null;
     }
 }

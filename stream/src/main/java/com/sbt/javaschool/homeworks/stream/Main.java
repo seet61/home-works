@@ -32,11 +32,11 @@ public class Main {
         }
 
         System.out.println("Streams");
-        /*
+
         Map m = Streams.of(someCollection)
                 .filter(p -> p.getAge() > 20)
                 .transform( p -> new Person(p.getAge() + 30))
                 .toMap(p -> p.getName(), p -> p);
-        */
+
     }
 }
