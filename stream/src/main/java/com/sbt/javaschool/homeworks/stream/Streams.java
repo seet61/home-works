@@ -31,18 +31,19 @@ public class Streams<T> {
      * @return this.list
      */
     public Streams<T> filter(Predicate<T> predicate) {
-        for (Iterator<T> it = list.iterator(); it.hasNext(); ) {
+        List<T> newList = new ArrayList<>(this.list);
+        for (Iterator<T> it = newList.iterator(); it.hasNext(); ) {
             T element = it.next();
             if (!predicate.test(element)) {
                 it.remove();
             }
         }
 
-        return this;
+        return new Streams<>(newList);
     }
 
     /**
-     * преобразует элемент в другой.
+     * Преобразует элемент в другой.
      * @param function
      * @return
      */
@@ -55,13 +56,26 @@ public class Streams<T> {
         return new Streams<>(newList);
     }
 
-    /*
-    public HashMap toMap(Predicate<T> p1, Predicate<T> p2) {
-        if (p1.test(t)) {
-            return new HashMap(t.toString());
+    /**
+     * принимает 2 лямбды для создания мапы, в одной указывается,
+     * что использовать в качестве ключа, в другой, что в качестве значения
+     * @param keyFunc функция для ключей
+     * @param valFunc функция для значений
+     * @param <K> тип ключа
+     * @param <V> тип значения
+     * @return
+     */
+    public <K, V> Map<K, V> toMap(Function<? super T, ? extends K> keyFunc,
+                                  Function<? super T, ? extends V> valFunc) {
+        Map<K, V> map = new HashMap<>();
+
+        for (T item : this.list) {
+            K key = keyFunc.apply(item);
+            V val = valFunc.apply(item);
+            map.put(key, val);
         }
 
-        return null;
+        return map;
     }
-    */
+
 }

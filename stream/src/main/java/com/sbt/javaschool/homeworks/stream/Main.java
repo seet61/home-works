@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,12 +32,22 @@ public class Main {
             System.out.println(entry);
         }
 
-        System.out.println("Streams");
+        Stream.generate(() -> "-").limit(20).forEach(System.out::print);
+        System.out.println();
 
         Map m = Streams.of(someCollection)
                 .filter(p -> p.getAge() > 20)
                 .transform( p -> new Person(p.getAge() + 30))
                 .toMap(p -> p.getName(), p -> p);
 
+        System.out.println("Before");
+        for (int i =0; i < someCollection.size(); i++) {
+            System.out.println(someCollection.get(i));
+        }
+
+        System.out.println("Streams");
+        for (Object entry : m1.entrySet()) {
+            System.out.println(entry);
+        }
     }
 }
