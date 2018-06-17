@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
+import java.util.Map;
 
 import static org.junit.Assert.*;
 
@@ -29,14 +29,24 @@ public class StreamsTest {
 
     @Test
     public void filter() {
-        assertNotEquals(String message, Object unexpected, Object actual);
+        assertEquals("of()", Streams.class,
+                Streams.of(someCollection).filter(p -> p.getAge() > 20).getClass());
     }
 
     @Test
     public void transform() {
+        assertEquals("of()", Streams.class,
+                Streams.of(someCollection)
+                        .filter(p -> p.getAge() > 20)
+                        .transform(p -> new Person(p.getAge() + 30)).getClass());
     }
 
-    @Test
+    @Test(expected = AssertionError.class)
     public void toMap() {
+        assertEquals("of()", Map.class,
+                Streams.of(someCollection)
+                        .filter(p -> p.getAge() > 20)
+                        .transform(p -> new Person(p.getAge() + 30))
+                        .toMap(p -> p.getName(), p -> p).getClass());
     }
 }
