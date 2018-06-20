@@ -1,4 +1,4 @@
-package com.sbt.javaschool.homeworks.threadpool;
+package com.sbt.javaschool.homeworks.threadpool.pool;
 
 public interface ThreadPool {
     /**

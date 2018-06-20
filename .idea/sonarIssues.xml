@@ -58,6 +58,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/Main.java">
           <value>
             <set />
@@ -99,6 +104,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/queue/ThreadQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/test/java/com/sbt/javaschool/homeworks/threadpool/queue/ThreadQueueTest.java">
           <value>
             <set />
           </value>
