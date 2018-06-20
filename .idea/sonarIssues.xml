@@ -53,6 +53,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/ThreadPool.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
