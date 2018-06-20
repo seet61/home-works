@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -53,7 +58,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/ThreadPool.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/ThreadPoolImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/ThreadQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/pool/PoolWorker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/pool/ThreadPool.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/pool/ThreadPoolImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/queue/Task.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/main/java/com/sbt/javaschool/homeworks/threadpool/queue/ThreadQueue.java">
           <value>
             <set />
           </value>
