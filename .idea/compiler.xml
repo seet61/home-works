@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="serialization" />
         <module name="stream" />
+        <module name="thread-pool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="home-works" target="1.7" />
       <module name="serialization" target="1.7" />
       <module name="stream" target="1.8" />
+      <module name="thread-pool" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

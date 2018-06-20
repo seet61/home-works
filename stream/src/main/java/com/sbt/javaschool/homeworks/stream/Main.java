@@ -8,6 +8,12 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
+        /**
+         * Подсказка по тестам с сонаром
+         * https://stackoverflow.com/questions/22174501/sonarqube-not-picking-up-unit-test-coverage
+         */
+
+
         List<Person> someCollection = new ArrayList<>();
         someCollection.add(new Person(10));
         someCollection.add(new Person(15));
