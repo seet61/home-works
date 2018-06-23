@@ -12,6 +12,7 @@
         <module>serialization</module>
         <module>stream</module>
         <module>thread-pool</module>
+        <module>jmm</module>
     </modules>
 
 

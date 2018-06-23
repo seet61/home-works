@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jmm" />
         <module name="serialization" />
         <module name="stream" />
         <module name="thread-pool" />
@@ -13,6 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="home-works" target="1.7" />
+      <module name="jmm" target="1.7" />
       <module name="serialization" target="1.7" />
       <module name="stream" target="1.8" />
       <module name="thread-pool" target="1.8" />
