@@ -108,6 +108,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/test/java/com/sbt/javaschool/homeworks/threadpool/pool/ThreadPoolImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/thread-pool/src/test/java/com/sbt/javaschool/homeworks/threadpool/queue/TaskTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/thread-pool/src/test/java/com/sbt/javaschool/homeworks/threadpool/queue/ThreadQueueTest.java">
           <value>
             <set />

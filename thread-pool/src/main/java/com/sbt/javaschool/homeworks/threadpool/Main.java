@@ -9,7 +9,7 @@ public class Main {
         ThreadPool threadPool = new ThreadPoolImpl(2);
         threadPool.start();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             Task task = new Task(i);
             threadPool.execute(task);
         }
