@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/jmm/src/main/java/com/sbt/javaschool/homeworks/Class2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/jmm/src/main/java/com/sbt/javaschool/homeworks/Task.java">
           <value>
             <set />
@@ -24,6 +29,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/jmm/src/main/java/com/sbt/javaschool/homeworks/executionmanager/ExecutionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jmm/src/main/java/com/sbt/javaschool/homeworks/executionmanager/interfaces/Context.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jmm/src/main/java/com/sbt/javaschool/homeworks/executionmanager/interfaces/ExecutionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jmm/src/main/java/com/sbt/javaschool/homeworks/impl/test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/jmm/src/main/java/com/sbt/javaschool/homeworks/task/Task.java">
           <value>
             <set />
           </value>

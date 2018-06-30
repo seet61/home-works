@@ -1,4 +1,4 @@
-package com.sbt.javaschool.homeworks.executionmanager;
+package com.sbt.javaschool.homeworks.executionmanager.interfaces;
 
 public interface Context {
     /**
