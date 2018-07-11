@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="goodcode" />
         <module name="jmm" />
         <module name="serialization" />
         <module name="sockets" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="goodcode" target="1.7" />
       <module name="home-works" target="1.7" />
       <module name="jmm" target="1.7" />
       <module name="serialization" target="1.7" />

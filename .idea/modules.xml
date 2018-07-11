@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/goodcode/goodcode.iml" filepath="$PROJECT_DIR$/goodcode/goodcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/home-works.iml" filepath="$PROJECT_DIR$/home-works.iml" />
       <module fileurl="file://$PROJECT_DIR$/jmm/jmm.iml" filepath="$PROJECT_DIR$/jmm/jmm.iml" />
       <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
