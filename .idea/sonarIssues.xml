@@ -88,6 +88,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/sockets/src/main/java/com/sbt/javaschool/homeworks/example/ServerSocketExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sockets/src/main/java/com/sbt/javaschool/homeworks/sockets/ChatClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sockets/src/main/java/com/sbt/javaschool/homeworks/sockets/ChatServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/stream/pom.xml">
           <value>
             <set />

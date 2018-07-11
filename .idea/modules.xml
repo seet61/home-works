@@ -5,8 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/home-works.iml" filepath="$PROJECT_DIR$/home-works.iml" />
       <module fileurl="file://$PROJECT_DIR$/jmm/jmm.iml" filepath="$PROJECT_DIR$/jmm/jmm.iml" />
       <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sockets/sockets.iml" filepath="$PROJECT_DIR$/sockets/sockets.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream/stream.iml" filepath="$PROJECT_DIR$/stream/stream.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thread-pool/thread-pool.iml" filepath="$PROJECT_DIR$/thread-pool/thread-pool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread-pool/threadpool.iml" filepath="$PROJECT_DIR$/thread-pool/threadpool.iml" />
     </modules>
   </component>
 </project>
