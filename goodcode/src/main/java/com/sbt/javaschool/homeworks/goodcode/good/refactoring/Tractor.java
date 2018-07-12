@@ -1,6 +1,9 @@
 package com.sbt.javaschool.homeworks.goodcode.good.refactoring;
 
 public class Tractor {
+	/*
+	* Какова логика работы?
+	*/
 
 	int[] position = new int[] { 0, 0 };
 	int[] field = new int[] { 5, 5 };
