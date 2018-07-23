@@ -123,6 +123,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/sql/src/main/sql/sql.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/stream/pom.xml">
           <value>
             <set />
@@ -194,6 +199,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/thread-pool/src/test/java/com/sbt/javaschool/homeworks/threadpool/queue/ThreadQueueTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/usr/lib/jvm/default-java/src.zip!/java/lang/Object.java">
           <value>
             <set />
           </value>
