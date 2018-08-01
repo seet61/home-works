@@ -123,6 +123,51 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/spring-jdbc/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-jdbc/src/main/java/com/sbt/javaschool/homeworks/springjdbc/Dish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-jdbc/src/main/java/com/sbt/javaschool/homeworks/springjdbc/DishDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-jdbc/src/main/java/com/sbt/javaschool/homeworks/springjdbc/DishJDBCTemplate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-jdbc/src/main/java/com/sbt/javaschool/homeworks/springjdbc/DishMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-jdbc/src/main/java/com/sbt/javaschool/homeworks/springjdbc/MainApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-jdbc/src/main/resources/beans.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-jdbc/src/main/resources/dish.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-jdbc/src/test/java/com/sbt/javaschool/homeworks/springjdbc/DishJDBCTemplateTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/sql/src/main/sql/sql.sql">
           <value>
             <set />

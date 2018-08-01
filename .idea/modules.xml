@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/jmm/jmm.iml" filepath="$PROJECT_DIR$/jmm/jmm.iml" />
       <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/sockets/sockets.iml" filepath="$PROJECT_DIR$/sockets/sockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-jdbc/spring-jdbc.iml" filepath="$PROJECT_DIR$/spring-jdbc/spring-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/sql/sql.iml" filepath="$PROJECT_DIR$/sql/sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream/stream.iml" filepath="$PROJECT_DIR$/stream/stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-pool/threadpool.iml" filepath="$PROJECT_DIR$/thread-pool/threadpool.iml" />
