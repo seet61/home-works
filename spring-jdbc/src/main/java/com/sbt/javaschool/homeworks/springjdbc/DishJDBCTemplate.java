@@ -1,9 +1,14 @@
 package com.sbt.javaschool.homeworks.springjdbc;
 
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 
 import javax.sql.DataSource;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class DishJDBCTemplate implements DishDAO {
     private DataSource dataSource;
@@ -25,7 +30,7 @@ public class DishJDBCTemplate implements DishDAO {
     @Override
     public Dish searchDish(String rule) {
         String SQL = "select * from Dish where name like '%?%'";
-        Dish dish = jdbcTemplate.queryForObject(SQL, new Object[]{rule}, new DishMapper());
+        Dish dish = jdbcTemplate.queryForObject(SQL, new DishMapper(), rule);
         return dish;
     }
 
