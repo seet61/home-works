@@ -11,7 +11,7 @@
         <property name="password" value="rootpwd"/>
     </bean>
 
-    <!-- Definition for studentJDBCTemplate bean -->
+    <!-- Definition for dishJDBCTemplate bean -->
     <bean id="dishJDBCTemplate" class="com.sbt.javaschool.homeworks.springjdbc.DishJDBCTemplate">
         <property name="dataSource" ref="dataSource" />
     </bean>
