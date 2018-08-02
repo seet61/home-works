@@ -29,8 +29,8 @@ public class DishJDBCTemplate implements DishDAO {
 
     @Override
     public Dish searchDish(String rule) {
-        String SQL = "select * from Dish where name like '%?%'";
-        Dish dish = jdbcTemplate.queryForObject(SQL, new DishMapper(), rule);
+        String SQL = "select * from Dish where name like ?";
+        Dish dish = jdbcTemplate.queryForObject(SQL, new DishMapper(), "%"+rule+"%");
         return dish;
     }
 
