@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 public class DishMapper implements RowMapper<Dish> {
     public Dish mapRow(ResultSet rs, int rowNum) throws SQLException {
-        Dish student = new Dish();
-        student.setId(rs.getInt("id"));
-        student.setName(rs.getString("name"));
-        student.setIngredients(rs.getString("ingredients"));
-        return student;
+        Dish dish = new Dish();
+        dish.setId(rs.getInt("id"));
+        dish.setName(rs.getString("name"));
+        dish.setIngredients(rs.getString("ingredients"));
+        return dish;
     }
 }
