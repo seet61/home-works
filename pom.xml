@@ -17,6 +17,7 @@
         <module>goodcode</module>
         <module>sql</module>
         <module>spring-jdbc</module>
+        <module>spring-hibernate</module>
     </modules>
 
 

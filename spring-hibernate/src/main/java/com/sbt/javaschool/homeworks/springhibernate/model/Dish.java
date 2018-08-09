@@ -4,13 +4,14 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /***
  * Описание модели данных в формате Entity bean with JPA annotations
  */
 @Entity
 @Table(name="Dish")
-public class Dish {
+public class Dish implements Serializable {
     @Id
     @Column(name="id")
     private Integer id;

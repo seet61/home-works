@@ -13,13 +13,13 @@ public class AppMain {
         AbstractApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         DishDAO dishDAO = context.getBean(DishDAO.class);
 
-        Dish dish = new Dish();
+        /*Dish dish = new Dish();
         dish.setName("Окрошка");
         dish.setIngredients("Огурцы,Картофель,Квас,Колбаса,Яйца,Зелень");
 
         dishDAO.create(dish);
 
-        System.out.println(dish);
+        System.out.println(dish);*/
 
         List<Dish> list = dishDAO.listDishes();
         for(Dish d: list) {

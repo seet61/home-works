@@ -1,5 +1,6 @@
 package com.sbt.javaschool.homeworks.springhibernate.config;
 
+import com.sbt.javaschool.homeworks.springhibernate.model.Dish;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -31,6 +32,7 @@ public class AppConfig {
         sessionFactory.setDataSource(dataSource());
         sessionFactory.setPackagesToScan(new String[] { "com.sbt.javaschool.homeworks.springhibernate" });
         sessionFactory.setHibernateProperties(additionalProperties());
+        sessionFactory.setAnnotatedClasses(Dish.class);
         return sessionFactory;
     }
 

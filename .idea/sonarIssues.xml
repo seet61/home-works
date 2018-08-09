@@ -18,6 +18,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/usr/lib/jvm/default-java/src.zip!/java/lang/Object.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/goodcode/src/main/java/com/sbt/javaschool/homeworks/goodcode/bad/SalaryHtmlReportNotifier.java">
           <value>
             <set />
@@ -119,6 +124,56 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/sockets/src/main/java/com/sbt/javaschool/homeworks/sockets/ChatServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/java/com/sbt/javaschool/homeworks/springhibernate/AppMain.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/java/com/sbt/javaschool/homeworks/springhibernate/config/AppConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/java/com/sbt/javaschool/homeworks/springhibernate/config/PersistenceJPAConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/java/com/sbt/javaschool/homeworks/springhibernate/dao/DishDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/java/com/sbt/javaschool/homeworks/springhibernate/dao/DishDAOImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/java/com/sbt/javaschool/homeworks/springhibernate/model/Dish.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/java/com/sbt/javaschool/homeworks/springhibernate/service/DishService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/resources/springapp.xml">
           <value>
             <set />
           </value>
@@ -244,11 +299,6 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/thread-pool/src/test/java/com/sbt/javaschool/homeworks/threadpool/queue/ThreadQueueTest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="/usr/lib/jvm/default-java/src.zip!/java/lang/Object.java">
           <value>
             <set />
           </value>
