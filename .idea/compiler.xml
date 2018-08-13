@@ -23,7 +23,7 @@
       <module name="jmm" target="1.7" />
       <module name="serialization" target="1.7" />
       <module name="sockets" target="1.7" />
-      <module name="spring-hibernate" target="1.7" />
+      <module name="spring-hibernate" target="1.8" />
       <module name="spring-jdbc" target="1.8" />
       <module name="sql" target="1.7" />
       <module name="stream" target="1.8" />

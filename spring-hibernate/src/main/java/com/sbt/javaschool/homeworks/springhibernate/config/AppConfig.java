@@ -1,6 +1,5 @@
 package com.sbt.javaschool.homeworks.springhibernate.config;
 
-import com.sbt.javaschool.homeworks.springhibernate.dao.DishDAO;
 import com.sbt.javaschool.homeworks.springhibernate.dao.DishDAOImpl;
 import com.sbt.javaschool.homeworks.springhibernate.model.Dish;
 import org.hibernate.SessionFactory;
@@ -14,7 +13,6 @@ import org.springframework.dao.annotation.PersistenceExceptionTranslationPostPro
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
-import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;

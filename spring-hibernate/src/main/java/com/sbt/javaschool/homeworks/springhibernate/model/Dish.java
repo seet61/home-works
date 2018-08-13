@@ -1,5 +1,8 @@
 package com.sbt.javaschool.homeworks.springhibernate.model;
 
+import org.jboss.logging.Field;
+import org.springframework.stereotype.Indexed;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -11,6 +14,7 @@ import java.io.Serializable;
  */
 @Entity
 @Table(name="Dish")
+@Indexed
 public class Dish implements Serializable {
     @Id
     @Column(name="id")

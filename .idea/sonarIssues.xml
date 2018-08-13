@@ -168,7 +168,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/java/com/sbt/javaschool/homeworks/springhibernate/service/DishServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/spring-hibernate/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-hibernate/src/main/resources/spring.xml">
           <value>
             <set />
           </value>

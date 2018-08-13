@@ -17,7 +17,7 @@ public interface DishDAO {
      * a record from the Dish table corresponding
      * to a passed rule.
      */
-    public Dish searchDish(String rule);
+    public List<Dish> searchDish(String rule);
 
     /**
      * This is the method to be used to list down

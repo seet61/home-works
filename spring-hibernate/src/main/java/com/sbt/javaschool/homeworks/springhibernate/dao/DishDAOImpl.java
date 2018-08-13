@@ -1,15 +1,18 @@
 package com.sbt.javaschool.homeworks.springhibernate.dao;
 
 import com.sbt.javaschool.homeworks.springhibernate.model.Dish;
+import org.apache.lucene.search.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+import org.hibernate.search.jpa.FullTextEntityManager;
+import org.hibernate.search.jpa.Search;
+import org.hibernate.search.query.dsl.QueryBuilder;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.sql.DataSource;
+
+import javax.persistence.EntityManager;
 import java.util.List;
 
 /***
@@ -24,20 +27,36 @@ public class DishDAOImpl implements DishDAO{
     }
 
     @Override
+    @Transactional
     public void create(Dish dish) {
         Session session = this.sessionFactory.openSession();
-        Transaction tx = session.beginTransaction();
         session.save(dish);
-        tx.commit();
         session.close();
     }
 
     @Override
-    public Dish searchDish(String rule) {
-        return null;
+    @Transactional
+    public List<Dish> searchDish(String rule) {
+        Session session = this.sessionFactory.openSession();
+        FullTextEntityManager fullTextEntityManager
+                = Search.getFullTextEntityManager(session);
+        QueryBuilder queryBuilder = fullTextEntityManager.getSearchFactory()
+                .buildQueryBuilder()
+                .forEntity(Dish.class)
+                .get();
+        Query keywordQuery = queryBuilder
+                .keyword()
+                .onField("name")
+                .matching(rule)
+                .createQuery();
+        org.hibernate.search.jpa.FullTextQuery jpaQuery = fullTextEntityManager.createFullTextQuery(keywordQuery, Dish.class);
+        List<Dish> list = jpaQuery.getResultList();
+        session.close();
+        return list;
     }
 
     @Override
+    @Transactional
     public List<Dish> listDishes() {
         Session session = this.sessionFactory.openSession();
         List<Dish> list = session.createQuery("from Dish").list();
@@ -46,6 +65,7 @@ public class DishDAOImpl implements DishDAO{
     }
 
     @Override
+    @Transactional
     public void delete(String name) {
 
     }
