@@ -1,5 +1,7 @@
 package com.sbt.javaschool.homeworks.springhibernate.config;
 
+import com.sbt.javaschool.homeworks.springhibernate.dao.DishDAO;
+import com.sbt.javaschool.homeworks.springhibernate.dao.DishDAOImpl;
 import com.sbt.javaschool.homeworks.springhibernate.model.Dish;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,7 +55,6 @@ public class AppConfig {
     }
 
     @Bean
-    @Autowired
     public HibernateTransactionManager transactionManager(
             SessionFactory sessionFactory) {
 
@@ -68,4 +69,10 @@ public class AppConfig {
     public PersistenceExceptionTranslationPostProcessor exceptionTranslation() {
         return new PersistenceExceptionTranslationPostProcessor();
     }
+
+    @Bean
+    public DishDAOImpl dishDAOImpl(){
+        return new DishDAOImpl();
+    }
+
 }

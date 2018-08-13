@@ -7,6 +7,7 @@ import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.sql.DataSource;
 import java.util.List;
@@ -15,13 +16,11 @@ import java.util.List;
  * Имплементация в DishDAO в формате Hibernate
  */
 @Component
-public class DishDAOImpl extends HibernateDaoSupport implements DishDAO{
+public class DishDAOImpl implements DishDAO{
     private SessionFactory sessionFactory;
 
-    @Autowired
-    public void anyMethodName(SessionFactory sessionFactory)
-    {
-        setSessionFactory(sessionFactory);
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
     }
 
     @Override

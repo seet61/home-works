@@ -3,14 +3,16 @@ package com.sbt.javaschool.homeworks.springhibernate;
 import com.sbt.javaschool.homeworks.springhibernate.config.AppConfig;
 import com.sbt.javaschool.homeworks.springhibernate.dao.DishDAO;
 import com.sbt.javaschool.homeworks.springhibernate.model.Dish;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
 
 public class AppMain {
     public static void main(String[] args) {
-        AbstractApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        //ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("springapp.xml");
         DishDAO dishDAO = context.getBean(DishDAO.class);
 
         /*Dish dish = new Dish();
@@ -26,6 +28,6 @@ public class AppMain {
             System.out.println("Dish: " + d);
         }
 
-        context.close();
+        //context.close();
     }
 }
