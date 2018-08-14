@@ -5,6 +5,7 @@ import com.sbt.javaschool.homeworks.springhibernate.dao.DishDAO;
 import com.sbt.javaschool.homeworks.springhibernate.model.Dish;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.Scanner;
 public class AppMain {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-
+        //AbstractApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         DishDAO dishDAO = context.getBean(DishDAO.class);
 
         /*Dish dish = new Dish();
@@ -32,7 +33,7 @@ public class AppMain {
         }
         //close resources
 
-
+        /*
         Scanner scanner = new Scanner(System.in);
 
         String line = "";
@@ -64,6 +65,7 @@ public class AppMain {
                     break;
             }
         }
+        */
 
         context.close();
     }
