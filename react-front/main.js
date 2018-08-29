@@ -87,21 +87,26 @@ class Board extends Component {
                     {this.renderSquare(7)}
                     {this.renderSquare(8)}
                 </div>
+                <button onClick={() => {
+                    const squares = Array(9).fill(null);
+                    this.setState({squares})
+                }
+                }>Сброс</button>
             </div>
         );
     }
 }
 
-class Game extends React.Component {
+class Game extends Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
         return (
             <div className={style.game}>
                 <div className={style.gameBoard}>
                     <Board />
-                </div>
-                <div className={style.gameInfo}>
-                    <div>{/* status */}</div>
-                    <ol>{/* TODO */}</ol>
                 </div>
             </div>
         );
