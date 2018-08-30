@@ -89,7 +89,7 @@ class Board extends Component {
                 </div>
                 <button onClick={() => {
                     const squares = Array(9).fill(null);
-                    this.setState({squares})
+                    this.setState({squares: squares});
                 }
                 }>Сброс</button>
             </div>
